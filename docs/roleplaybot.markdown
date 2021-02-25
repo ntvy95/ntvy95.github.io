@@ -54,6 +54,8 @@ You can edit your character name in the system by simply editing the message and
 
 You can remove the character from the database by simply deleting the message.
 
+It is entirely possible to have spaces in `<your character name>`.
+
 Your characters must be approved by the game master before being used in an interaction.
 
 #### Interaction
@@ -67,7 +69,7 @@ You can start an interaction by sending this short message:
     Role: <Role 1>, <Role 2>, ... , <Role n>
     Your brief descriptiion about the interaction, e.g. the interaction time.
 
-Then you can reply to the above message, insert the command "!prp" at the beginning of your reply message and then start your first interaction message. Other people can continue the interaction by replying to one of your interaction messages.
+Then you can reply to the above message, insert the command `!prp` at the beginning of your reply message and then start your first interaction message. Other people can continue the interaction by replying to one of your interaction messages.
 
 An interaction can contain up to 10 characters due to the possible computational constraints.
 
@@ -87,6 +89,17 @@ Or this message:
 
     !prp init interaction
     Your brief descriptiion about the interaction, e.g. the interaction time.
+
+Or this message:
+
+    !prp init interaction
+    Character: <character 1>, <character 2>, ... , <character n>
+
+Or this message:
+
+    !prp init interaction
+    Role: <Role 1>, <Role 2>, ... , <Role n>
+
 
 ## FAQ
 
