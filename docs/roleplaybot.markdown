@@ -50,7 +50,7 @@ You should first create a character by sending a message whose first line should
 
 The next lines of the message should be used to describe your character. These lines will not be stored in the system's database.
 
-You can edit your character name in the system by simply editing the message and replace the old character name with the new character name at the position of `<your character name>`.
+You can edit your character name in the system by simply editing the message and replacing the old character name with the new character name at the position of `<your character name>`.
 
 You can remove the character from the database by simply deleting the message.
 
