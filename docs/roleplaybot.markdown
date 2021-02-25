@@ -71,6 +71,23 @@ Then you can reply to the above message, insert the command "!prp" at the beginn
 
 An interaction can contain up to 10 characters due to the possible computational constraints.
 
+It is entirely possible to start your interaction by this message instead:
+
+    !prp init interaction
+    Character: <character 1>, <character 2>, ... , <character n>
+    Your brief descriptiion about the interaction, e.g. the interaction time.
+
+Or this message:
+
+    !prp init interaction
+    Role: <Role 1>, <Role 2>, ... , <Role n>
+    Your brief descriptiion about the interaction, e.g. the interaction time.
+
+Or this message:
+
+    !prp init interaction
+    Your brief descriptiion about the interaction, e.g. the interaction time.
+
 ## FAQ
 
 1. What kind of data will you collect and store on your database?
